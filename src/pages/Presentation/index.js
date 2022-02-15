@@ -44,21 +44,12 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/lab-images/lab1.png";
 
 function Presentation() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "info",
-        }}
-        sticky
-      />
+      <DefaultNavbar routes={routes} sticky />
       <MKBox
         minHeight="75vh"
         width="100%"
@@ -83,7 +74,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              CNU ImageLab{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -92,8 +83,8 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Intelligent human interface, virtual reality information transfer, application
+              software, realistic digital content expression and production
             </MKTypography>
           </Grid>
         </Container>
