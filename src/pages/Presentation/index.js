@@ -44,17 +44,18 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/lab-images/lab1.png";
+// import bgImage from "assets/lab-images/background-main2.jpeg";
 
 function Presentation() {
   return (
     <>
       <DefaultNavbar routes={routes} sticky />
       <MKBox
-        minHeight="75vh"
+        mt={-30}
+        minHeight="125vh"
         width="100%"
         sx={{
-          backgroundImage: `url(${bgImage})`,
+          backgroundImage: `url(https://cdn.filestackcontent.com/PyosrcISSROz1ON9zxhr)`,
           backgroundSize: "cover",
           backgroundPosition: "top",
           display: "grid",
@@ -66,7 +67,7 @@ function Presentation() {
             <MKTypography
               variant="h1"
               color="white"
-              mt={-6}
+              mt={70}
               mb={1}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
