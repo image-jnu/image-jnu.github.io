@@ -8,14 +8,14 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/lab-images/lab_logo.png";
+import labLogo from "assets/lab-images/lab_logo.png";
 
 const date = new Date().getFullYear();
 
 export default {
   brand: {
     name: "CNU ImageLab",
-    image: logoCT,
+    image: labLogo,
     route: "/",
   },
   socials: [
