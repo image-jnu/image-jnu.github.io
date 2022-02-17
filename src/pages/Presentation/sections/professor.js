@@ -14,6 +14,9 @@ import ImgProfessor from "assets/lab-images/professor.jpg";
 function Professor() {
   return (
     <MKBox component="section" py={{ xs: 3, md: 12 }}>
+      <MKTypography variant="h1" mb={20} sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}>
+        Professor
+      </MKTypography>
       <Container>
         <Grid container alignItems="center" justifyContent="center">
           <Grid item xs={12} lg={5} ml={12} alignItems="center">
@@ -25,7 +28,7 @@ function Professor() {
               width="auto"
               xs={12}
             />
-            <MKTypography variant="h3" my={1}>
+            <MKTypography variant="h4" my={1}>
               Prof. Chill Woo LEE
             </MKTypography>
             <MKTypography color="text" mb={2} pr={5}>
@@ -37,7 +40,7 @@ function Professor() {
           <Grid item xs={12} lg={6} sx={{ ml: { xs: -2, lg: "auto" }, mt: { xs: 6, lg: 0 } }}>
             <Stack justifyContent="center">
               <MKBox justifyContent="center">
-                <MKTypography variant="h2" textTransform="capitalize" mb={2}>
+                <MKTypography variant="h3" textTransform="capitalize" mb={2}>
                   educations
                 </MKTypography>
               </MKBox>
@@ -79,7 +82,7 @@ function Professor() {
               </MKBox>
 
               <MKBox justifyContent="center">
-                <MKTypography variant="h2" textTransform="capitalize" mb={2} mt={4}>
+                <MKTypography variant="h4" textTransform="capitalize" mb={2} mt={4}>
                   experience
                 </MKTypography>
               </MKBox>
@@ -103,8 +106,8 @@ function Professor() {
               </MKBox>
               <MKBox display="flex" alignItems="center" p={1}>
                 <MKBox
-                  min-width="1rem"
-                  min-height="1rem"
+                  width="1rem"
+                  height="1rem"
                   variant="gradient"
                   color="black"
                   coloredShadow="info"
