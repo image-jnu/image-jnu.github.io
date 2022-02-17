@@ -11,7 +11,7 @@ import MKTypography from "components/MKTypography";
 
 function ResearchArea() {
   return (
-    <MKBox component="section" py={{ xs: 3, md: 12 }}>
+    <MKBox component="section" py={{ xs: 3 }}>
       <Container>
         <Grid container item xs={12} sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}>
           <Grid item xs={12} alignItems="center" justifyContent="center">
