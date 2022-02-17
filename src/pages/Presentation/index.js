@@ -106,7 +106,7 @@ function Presentation() {
         }}
       >
         <Grid>
-          <MKBox pt={18} pb={6}>
+          <MKBox pb={6}>
             <Professor />
             <ResearchArea />
           </MKBox>
