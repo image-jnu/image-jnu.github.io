@@ -216,8 +216,8 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             variant="button"
             textTransform="capitalize"
             minWidth={item.description ? "14rem" : "12rem"}
-            color={item.description ? "dark" : "text"}
-            fontWeight={item.description ? "bold" : "regular"}
+            color="dark"
+            fontWeight="bold"
             py={item.description ? 1 : 0.625}
             px={2}
             sx={({ palette: { grey, dark }, borders: { borderRadius } }) => ({
