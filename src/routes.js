@@ -59,35 +59,34 @@ import Forms from "layouts/sections/input-areas/forms";
 // import Alerts from "layouts/sections/attention-catchers/alerts";
 // import Modals from "layouts/sections/attention-catchers/modals";
 // import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";
-import Avatars from "layouts/sections/elements/avatars";
-import Badges from "layouts/sections/elements/badges";
-import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
-import Buttons from "layouts/sections/elements/buttons";
-import Dropdowns from "layouts/sections/elements/dropdowns";
-import ProgressBars from "layouts/sections/elements/progress-bars";
-import Toggles from "layouts/sections/elements/toggles";
-import Typography from "layouts/sections/elements/typography";
+// import Avatars from "layouts/sections/elements/avatars";
+// import Badges from "layouts/sections/elements/badges";
+// import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
+// import Buttons from "layouts/sections/elements/buttons";
+// import Dropdowns from "layouts/sections/elements/dropdowns";
+// import ProgressBars from "layouts/sections/elements/progress-bars";
+// import Toggles from "layouts/sections/elements/toggles";
+// import Typography from "layouts/sections/elements/typography";
 
 const routes = [
   {
-    name: "Lab Info",
+    name: "Info",
     icon: <Icon>dashboard</Icon>,
-    columns: 1,
-    rowsPerColumn: 2,
     collapse: [
       {
-        name: "landing pages",
-        collapse: [],
+        name: "professor",
+        route: "/pages/authentication/sign-in",
+        component: <SignIn />,
       },
       {
-        name: "account",
-        collapse: [
-          {
-            name: "sign in",
-            route: "/pages/authentication/sign-in",
-            component: <SignIn />,
-          },
-        ],
+        name: "Lab",
+        route: "/pages/authentication/sign-in",
+        component: <SignIn />,
+      },
+      {
+        name: "Way to Come",
+        route: "/pages/authentication/sign-in",
+        component: <SignIn />,
       },
     ],
   },
@@ -168,53 +167,6 @@ const routes = [
             name: "디지펫",
             route: "/sections/input-areas/forms",
             component: <Forms />,
-          },
-        ],
-      },
-      {
-        name: "elements",
-        description: "See all 32 examples",
-        dropdown: true,
-        collapse: [
-          {
-            name: "avatars",
-            route: "/sections/elements/avatars",
-            component: <Avatars />,
-          },
-          {
-            name: "badges",
-            route: "/sections/elements/badges",
-            component: <Badges />,
-          },
-          {
-            name: "breadcrumbs",
-            route: "/sections/elements/breadcrumbs",
-            component: <BreadcrumbsEl />,
-          },
-          {
-            name: "buttons",
-            route: "/sections/elements/buttons",
-            component: <Buttons />,
-          },
-          {
-            name: "dropdowns",
-            route: "/sections/elements/dropdowns",
-            component: <Dropdowns />,
-          },
-          {
-            name: "progress bars",
-            route: "/sections/elements/progress-bars",
-            component: <ProgressBars />,
-          },
-          {
-            name: "toggles",
-            route: "/sections/elements/toggles",
-            component: <Toggles />,
-          },
-          {
-            name: "typography",
-            route: "/sections/elements/typography",
-            component: <Typography />,
           },
         ],
       },
