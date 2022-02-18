@@ -38,24 +38,23 @@ export default {
   ],
   menus: [
     {
-      name: "company",
+      name: "info",
       items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
+        { name: "professor", href: "https://www.creative-tim.com/presentation" },
+        { name: "Lab", href: "https://www.creative-tim.com/templates/free" },
+        { name: "Way to Come", href: "https://www.creative-tim.com/templates/premium" },
       ],
     },
     {
-      name: "resources",
+      name: "research",
       items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
+        { name: "사람과 사물 인식", href: "https://iradesign.io/" },
+        { name: "사람과 사물 추적", href: "https://www.creative-tim.com/bits" },
+        { name: "실감형 콘텐츠", href: "https://www.creative-tim.com/affiliates/new" },
       ],
     },
     {
-      name: "help & support",
+      name: "publication",
       items: [
         { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
         { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
@@ -64,11 +63,12 @@ export default {
       ],
     },
     {
-      name: "legal",
+      name: "Member",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        { name: "Undergraduate", href: "https://www.creative-tim.com/terms" },
+        { name: "Master", href: "https://www.creative-tim.com/privacy" },
+        { name: "Ph. D", href: "https://www.creative-tim.com/license" },
+        { name: "Graduated", href: "https://www.creative-tim.com/license" },
       ],
     },
   ],
