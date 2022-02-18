@@ -32,9 +32,8 @@ function Professor() {
               Prof. Chill Woo LEE
             </MKTypography>
             <MKTypography color="text" mb={2} pr={5}>
-              Pain is what we go through as we become older. We get insulted by others, lose trust
-              for those others. We get back stabbed by friends. It becomes harder for us to give
-              others a hand.
+              My life has always been a series of challenges and I am psychologically prepared but
+              this is the biggest challenge of my life.
             </MKTypography>
           </Grid>
           <Grid item xs={12} lg={6} sx={{ ml: { xs: -2, lg: "auto" }, mt: { xs: 6, lg: 0 } }}>
@@ -77,7 +76,7 @@ function Professor() {
                   borderRadius="xl"
                 />
                 <MKTypography color="text" pl={1}>
-                  Ph.D in electric engineering Tokyo University, Tokyo, Japan <br />- Mar. 1992
+                  Eng.D in electric engineering Tokyo University, Tokyo, Japan <br />- Mar. 1992
                 </MKTypography>
               </MKBox>
 
