@@ -5,7 +5,7 @@
   "author": "nagwangil",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "ImageLab homepage, templates from creative-tim",
-  "homepage": "https://imagelab.jnu.ac.kr/home/#/",
+  "homepage": "https://image.jnu.ac.kr/",
   "engines": {
     "node": "14 || 15 || 16",
     "npm": ">=6"
